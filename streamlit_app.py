@@ -8,5 +8,5 @@ streamlit.text('-> Hard-Boiled Free-Range Egg');
 streamlit.text('=> Avocado Toast');
 
 
-streamlit.title('\N{flexed biceps} Build your own fruit smoothie')
+streamlit.title('\N{grapes} Build your own fruit smoothie')
                 
