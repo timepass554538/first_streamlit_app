@@ -11,6 +11,7 @@ streamlit.text('\N{avocado} Avocado Toast');
 streamlit.title('\N{grapes}\N{red apple}\N{green apple}Build your own fruit smoothie\N{mango}\N{pear}\N{peach}')
 import pandas
 my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+my_fruit_list=myfruit_list.set_index('Fruit')
 streamlit.multiselect("Pick some fruits:",list(my_fruit_list.index))
 
 streamlit.dataframe(my_fruit_list)                
